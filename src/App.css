@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: open sans, sans-serif;
+  background-color: #fff;
+  font-size: 11pt;
+  color: #636363;
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 942px;
+  margin: 0 auto;
+}
+
+.room {
+  display: flex;
+  border: 1px solid #f1f0f0;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #dbfab3;
+  position: relative;
+}
+
+.room .photo img {
+  height: 200px;
+  margin: 5px;
+}
+
+.room .description {
+  margin-left: 10px;
+}
+
+.room .description div {
+  margin: 5px 0;
+}
+
+@media (max-width: 950px) {
+  .wrapper {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .room {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #f1f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    max-width: 278px;
+  }
+
+  .room .photo img {
+    height: 150px;
+    margin: 5px;
+  }
+
+  .room .description div {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    text-align: center;
+  }
+
+  .wrapper {
+    max-width: 310px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .wrapper {
+    display: inline-flex;
+  }
+
+  .room .photo img {
+    height: 150px;
+    margin: 5px;
+  }
+}
