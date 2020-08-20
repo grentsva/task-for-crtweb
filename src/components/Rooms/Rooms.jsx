@@ -1,10 +1,7 @@
 import React from "react";
 import style from "./Rooms.module.css";
 import data from "../../entities.json";
-
-const like = () => {
-  console.log("allo");
-};
+import Favorite from "../Favorite/Favorite";
 
 const Rooms = () => {
   return (
@@ -48,7 +45,7 @@ const Rooms = () => {
                     </div>
                   </div>
                 </div>
-                <div className={style.like} onClick={like}></div>
+                <Favorite />
               </div>
             );
           })}
