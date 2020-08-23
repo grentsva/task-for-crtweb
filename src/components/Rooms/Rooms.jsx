@@ -41,7 +41,7 @@ const Rooms = () => {
                     </div>
                     <div className={style.area}>
                       <strong>Площадь: </strong>
-                      {resp.attributes.area + " " + resp.attributes.unit}
+                      {`${resp.attributes.area} ${resp.attributes.unit}`}
                     </div>
                   </div>
                 </div>
