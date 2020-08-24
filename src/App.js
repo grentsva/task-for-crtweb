@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import Rooms from "./components/Rooms/Rooms";
 
-const App = () => {
+const App = (props) => {
   return (
     <div>
-      <Rooms />
+      <Rooms data={props.state.response} />
     </div>
   );
 };

@@ -1,14 +1,13 @@
 import React from "react";
 import style from "./Rooms.module.css";
-import data from "../../entities.json";
 import Favorite from "../Favorite/Favorite";
 
-const Rooms = () => {
+const Rooms = (props) => {
   return (
     <div>
       <div className={style.content}>
         <div className={style.wrapper}>
-          {data.response.map((resp) => {
+          {props.data.map((resp) => {
             return (
               <div className={style.room} key={resp.id}>
                 <div className={style.photo}>
