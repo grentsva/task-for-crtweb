@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af1d86c0e649876d4d990f8f866b6559",
+    "revision": "4abbbdb8ce274eae3c26e9d976fcb809",
     "url": "/task-for-crtweb/index.html"
   },
   {

@@ -3,7 +3,7 @@
     {
       "type": "flat",
       "id": 1,
-      "photo": "/img/1.jpg",
+      "photo": "./img/1.jpg",
       "attributes": {
         "title": "3-х комнатная на Минской",
         "rooms": 3,
@@ -29,7 +29,7 @@
     {
       "type": "flat",
       "id": 2,
-      "photo": "/img/2.jpg",
+      "photo": "./img/2.jpg",
       "attributes": {
         "title": "2-х комнатная на Барабинской",
         "rooms": 2,
@@ -55,7 +55,7 @@
     {
       "type": "flat",
       "id": 3,
-      "photo": "/img/3.jpg",
+      "photo": "./img/3.jpg",
       "attributes": {
         "title": "4-х комнатная на Ленина",
         "rooms": 4,
