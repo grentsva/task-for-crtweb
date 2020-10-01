@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/task-for-crtweb/static/css/main.b2801373.chunk.css",
+    "main.js": "/task-for-crtweb/static/js/main.d3306192.chunk.js",
+    "main.js.map": "/task-for-crtweb/static/js/main.d3306192.chunk.js.map",
+    "runtime-main.js": "/task-for-crtweb/static/js/runtime-main.c3d3e794.js",
+    "runtime-main.js.map": "/task-for-crtweb/static/js/runtime-main.c3d3e794.js.map",
+    "static/js/2.522fee1a.chunk.js": "/task-for-crtweb/static/js/2.522fee1a.chunk.js",
+    "static/js/2.522fee1a.chunk.js.map": "/task-for-crtweb/static/js/2.522fee1a.chunk.js.map",
+    "index.html": "/task-for-crtweb/index.html",
+    "precache-manifest.3beb870671ec5bf6f7d9f8d532a0c3de.js": "/task-for-crtweb/precache-manifest.3beb870671ec5bf6f7d9f8d532a0c3de.js",
+    "service-worker.js": "/task-for-crtweb/service-worker.js",
+    "static/css/main.b2801373.chunk.css.map": "/task-for-crtweb/static/css/main.b2801373.chunk.css.map",
+    "static/js/2.522fee1a.chunk.js.LICENSE.txt": "/task-for-crtweb/static/js/2.522fee1a.chunk.js.LICENSE.txt",
+    "static/media/preloader.svg": "/task-for-crtweb/static/media/preloader.6e2fe115.svg",
+    "static/media/unlike.png": "/task-for-crtweb/static/media/unlike.413dd68b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3d3e794.js",
+    "static/js/2.522fee1a.chunk.js",
+    "static/css/main.b2801373.chunk.css",
+    "static/js/main.d3306192.chunk.js"
+  ]
+}
