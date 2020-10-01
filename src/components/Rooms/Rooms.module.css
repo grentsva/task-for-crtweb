@@ -24,6 +24,7 @@ img {
 }
 
 .description {
+  width: 400px;
   margin-left: 10px;
 }
 
@@ -57,6 +58,11 @@ img {
 
   div {
     text-align: left;
+  }
+
+  .description {
+    width: 256px;
+    margin-left: 10px;
   }
 }
 

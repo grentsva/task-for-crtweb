@@ -1,7 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import state from "./entities.json";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-ReactDOM.render(<App state={state} />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));

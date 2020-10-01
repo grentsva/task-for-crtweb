@@ -1,33 +1,28 @@
-import React from "react";
-import style from "./Favorite.module.css";
+import React, { useState } from 'react';
+import styles from './Favorite.module.css';
+import like from '../../assets/images/like.png';
+import unlike from '../../assets/images/unlike.png';
 
-class Favorite extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isFavorite: false };
+const Favorite = props => {
+  const [state, toggleIsFovorite] = useState({
+    isFavorite: false,
+  });
 
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    this.setState((state) => ({
-      isFavorite: !state.isFavorite,
-    }));
-  }
-
-  render() {
-    return (
-      <div>
-        <div onClick={this.handleClick}>
-          {this.state.isFavorite ? (
-            <img className={style.like} src="./img/like.png" alt="" />
-          ) : (
-            <img className={style.like} src="./img/unlike.png" alt="" />
-          )}
-        </div>
+  return (
+    <div>
+      <div
+        onClick={() =>
+          toggleIsFovorite({ ...state, isFavorite: !state.isFavorite })
+        }
+      >
+        {state.isFavorite ? (
+          <img className={styles.like} src={like} alt="" />
+        ) : (
+          <img className={styles.like} src={unlike} alt="" />
+        )}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Favorite;
