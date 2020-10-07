@@ -1,35 +1,47 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Rooms from './Rooms';
 import Preloader from '../common/Preloader/Preloader';
 
-const RoomsContainer = () => {
-  const [error, setError] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [response, setRooms] = useState([]);
+class RoomsContainer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      items: [],
+    };
+  }
 
-  useEffect(() => {
+  componentDidMount() {
     fetch('data/entities.json')
       .then(res => res.json())
       .then(
         result => {
-          setIsLoaded(true);
-          setRooms(result.response);
+          this.setState({
+            isLoaded: true,
+            items: result.items,
+          });
         },
 
         error => {
-          setIsLoaded(true);
-          setError(error);
+          this.setState({
+            isLoaded: true,
+            error,
+          });
         }
       );
-  }, []);
-
-  if (error) {
-    return <div>Ошибка: {error.message}</div>;
-  } else if (!isLoaded) {
-    return <Preloader />;
-  } else {
-    return <Rooms data={response} />;
   }
-};
+
+  render() {
+    const { error, isLoaded, items } = this.state;
+    if (error) {
+      return <div>Ошибка: {error.message}</div>;
+    } else if (!isLoaded) {
+      return <Preloader />;
+    } else {
+      return <Rooms data={items.response} />;
+    }
+  }
+}
 
 export default RoomsContainer;
