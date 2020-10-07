@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4abbbdb8ce274eae3c26e9d976fcb809",
+    "revision": "ffcfd309f5cf3ce906b1999fd967ed8a",
     "url": "/task-for-crtweb/index.html"
   },
   {
-    "revision": "3dd35eb628b0a1f62d95",
+    "revision": "aaacc5f28f49f136d16a",
     "url": "/task-for-crtweb/static/css/main.b2801373.chunk.css"
   },
   {
-    "revision": "6036d74b9f6be757404a",
-    "url": "/task-for-crtweb/static/js/2.522fee1a.chunk.js"
+    "revision": "18284fc04f4d2aaf6ff1",
+    "url": "/task-for-crtweb/static/js/2.85348bba.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/task-for-crtweb/static/js/2.522fee1a.chunk.js.LICENSE.txt"
+    "url": "/task-for-crtweb/static/js/2.85348bba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3dd35eb628b0a1f62d95",
-    "url": "/task-for-crtweb/static/js/main.d3306192.chunk.js"
+    "revision": "aaacc5f28f49f136d16a",
+    "url": "/task-for-crtweb/static/js/main.381caeb4.chunk.js"
   },
   {
     "revision": "44db5dad247ae77b5d7a",
