@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/task-for-crtweb/static/css/main.b2801373.chunk.css",
-    "main.js": "/task-for-crtweb/static/js/main.381caeb4.chunk.js",
-    "main.js.map": "/task-for-crtweb/static/js/main.381caeb4.chunk.js.map",
+    "main.js": "/task-for-crtweb/static/js/main.c7445e22.chunk.js",
+    "main.js.map": "/task-for-crtweb/static/js/main.c7445e22.chunk.js.map",
     "runtime-main.js": "/task-for-crtweb/static/js/runtime-main.c3d3e794.js",
     "runtime-main.js.map": "/task-for-crtweb/static/js/runtime-main.c3d3e794.js.map",
     "static/js/2.85348bba.chunk.js": "/task-for-crtweb/static/js/2.85348bba.chunk.js",
     "static/js/2.85348bba.chunk.js.map": "/task-for-crtweb/static/js/2.85348bba.chunk.js.map",
     "index.html": "/task-for-crtweb/index.html",
-    "precache-manifest.0beb8541c1a0a9aa3592c6d5e9af5960.js": "/task-for-crtweb/precache-manifest.0beb8541c1a0a9aa3592c6d5e9af5960.js",
+    "precache-manifest.8df020aff2521d29f1b539c30a9da757.js": "/task-for-crtweb/precache-manifest.8df020aff2521d29f1b539c30a9da757.js",
     "service-worker.js": "/task-for-crtweb/service-worker.js",
     "static/css/main.b2801373.chunk.css.map": "/task-for-crtweb/static/css/main.b2801373.chunk.css.map",
     "static/js/2.85348bba.chunk.js.LICENSE.txt": "/task-for-crtweb/static/js/2.85348bba.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.c3d3e794.js",
     "static/js/2.85348bba.chunk.js",
     "static/css/main.b2801373.chunk.css",
-    "static/js/main.381caeb4.chunk.js"
+    "static/js/main.c7445e22.chunk.js"
   ]
 }
