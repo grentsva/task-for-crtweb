@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a4e319f877a968e7506daa2e8afeca8",
+    "revision": "72adae53c3086fbad4567f0df95ef156",
     "url": "/task-for-crtweb/index.html"
   },
   {
-    "revision": "46cd5b5c8a8abd0c162d",
+    "revision": "e5691977f5ad3e185512",
     "url": "/task-for-crtweb/static/css/main.b2801373.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/task-for-crtweb/static/js/2.85348bba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46cd5b5c8a8abd0c162d",
-    "url": "/task-for-crtweb/static/js/main.c7445e22.chunk.js"
+    "revision": "e5691977f5ad3e185512",
+    "url": "/task-for-crtweb/static/js/main.158bb009.chunk.js"
   },
   {
     "revision": "44db5dad247ae77b5d7a",
