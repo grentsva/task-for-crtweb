@@ -13,13 +13,13 @@ class RoomsContainer extends React.Component {
   }
 
   componentDidMount() {
-    fetch('data/entities.json')
+    fetch('https://my-json-server.typicode.com/grentsva/task-for-crtweb/db')
       .then(res => res.json())
       .then(
         result => {
           this.setState({
             isLoaded: true,
-            items: result.items,
+            items: result.response,
           });
         },
 
@@ -34,12 +34,13 @@ class RoomsContainer extends React.Component {
 
   render() {
     const { error, isLoaded, items } = this.state;
+
     if (error) {
       return <div>Ошибка: {error.message}</div>;
     } else if (!isLoaded) {
       return <Preloader />;
     } else {
-      return <Rooms data={items.response} />;
+      return <Rooms data={items} />;
     }
   }
 }

@@ -3,12 +3,12 @@ import styles from './Rooms.module.css';
 import Favorite from '../Favorite/Favorite';
 import Agents from '../Agents/Agents';
 
-const Rooms = props => {
+const Rooms = ({ data }) => {
   return (
     <div>
       <div className={styles.content}>
         <div className={styles.wrapper}>
-          {props.data.map(resp => {
+          {data.map(resp => {
             return (
               <div className={styles.room} key={resp.id}>
                 <div className={styles.photo}>
