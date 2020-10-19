@@ -4,6 +4,7 @@
       "type": "flat",
       "id": 1,
       "photo": "https://www.eremont.ru/upload/iblock/d24/kukhnya_gostinaya_3.jpg",
+      "isFavorite": false,
       "attributes": {
         "title": "3-х комнатная на Минской",
         "rooms": 3,
@@ -30,6 +31,7 @@
       "type": "flat",
       "id": 2,
       "photo": "https://www.eremont.ru/upload/iblock/ca8/P_obraznyy_knizhnyy_shkaf.jpg",
+      "isFavorite": false,
       "attributes": {
         "title": "2-х комнатная на Барабинской",
         "rooms": 2,
@@ -56,6 +58,7 @@
       "type": "flat",
       "id": 3,
       "photo": "https://www.eremont.ru/upload/iblock/148/YArkiy_siniy_divan_v_belom_interere.jpg",
+      "isFavorite": false,
       "attributes": {
         "title": "4-х комнатная на Ленина",
         "rooms": 4,
