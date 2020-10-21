@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/task-for-crtweb/precache-manifest.f062ffea506abf51a2996dbe768f367e.js"
+  "/task-for-crtweb/precache-manifest.7bb11837e2bc43af69deb29a5a354156.js"
 );
 
 self.addEventListener('message', (event) => {
