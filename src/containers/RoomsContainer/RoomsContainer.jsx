@@ -1,6 +1,6 @@
 import React from 'react';
-import Rooms from './Rooms';
-import Preloader from '../common/Preloader/Preloader';
+import Preloader from '../../components/common/Preloader/Preloader';
+import Rooms from '../../components/Rooms';
 
 class RoomsContainer extends React.Component {
   constructor(props) {
@@ -13,13 +13,13 @@ class RoomsContainer extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://my-json-server.typicode.com/grentsva/task-for-crtweb/db')
+    fetch('https://task-for-crtweb.firebaseio.com/response.json')
       .then(res => res.json())
       .then(
         result => {
           this.setState({
             isLoaded: true,
-            items: result.response,
+            items: result,
           });
         },
 
@@ -32,6 +32,23 @@ class RoomsContainer extends React.Component {
       );
   }
 
+  handleClick = (id) => {
+    const updateItems = this.state.items.map(item => {
+      if (item.id === id) {
+        item.isFavorite = !item.isFavorite;
+      }
+
+      return item;
+    });
+
+    fetch('https://task-for-crtweb.firebaseio.com/response.json', {
+      method: 'PUT',
+      body: JSON.stringify(updateItems)
+    }).then(() => {
+      this.setState({ items: updateItems });
+    })
+  }
+
   render() {
     const { error, isLoaded, items } = this.state;
 
@@ -40,7 +57,7 @@ class RoomsContainer extends React.Component {
     } else if (!isLoaded) {
       return <Preloader />;
     } else {
-      return <Rooms data={items} />;
+      return <Rooms data={items} handleClick={this.handleClick} />;
     }
   }
 }

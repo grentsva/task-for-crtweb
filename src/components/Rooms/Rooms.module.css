@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
 .room {
   display: flex;
   border: 1px solid #f1f0f0;
@@ -19,12 +24,12 @@ h2 {
 }
 
 img {
-  height: 200px;
+  height: 250px;
   margin: 5px;
 }
 
 .description {
-  width: 400px;
+  width: 300px;
   margin-left: 10px;
 }
 
@@ -32,12 +37,14 @@ img {
   margin: 5px 0;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1023px) {
   .wrapper {
     display: inline-flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     text-align: center;
+    max-width: 600px;
   }
 
   .room {
@@ -47,46 +54,41 @@ img {
     border: 1px solid #f1f0f0;
     margin-bottom: 10px;
     padding: 10px;
-    margin-right: 10px;
-    max-width: 278px;
+    width: 100%;
   }
 
-  img {
-    height: 150px;
-    margin: 5px;
+  .photo img {
+    height: 200px;
   }
 
-  div {
-    text-align: left;
+  .title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
   }
 
   .description {
-    width: 256px;
-    margin-left: 10px;
+    width: 350px;
+    margin-left: 20px;
+    text-align: left;
   }
 }
 
-@media (max-width: 600px) {
-  .content {
-    text-align: center;
-  }
-
+@media (max-width: 767px) {
   .wrapper {
-    max-width: 310px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 360px) {
-  .wrapper {
-    display: inline-flex;
+    overflow-x: hidden;
   }
 
-  img {
+  .room {
+    width: 280px;
+  }
+
+  h2 {
+    width: 70%;
+    margin-bottom: -5px;
+  }
+
+  .photo img {
     height: 150px;
-    margin: 5px;
   }
 }

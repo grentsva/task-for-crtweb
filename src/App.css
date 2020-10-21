@@ -11,3 +11,9 @@ body {
   font-size: 11pt;
   color: #636363;
 }
+
+.app {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
