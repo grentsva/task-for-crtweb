@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Preloader from '../../components/common/Preloader';
 import Rooms from '../../components/Rooms';
 
-class RoomsContainer extends React.Component {
+class RoomsContainer extends Component {
     constructor(props) {
         super(props);
         this.state = {
