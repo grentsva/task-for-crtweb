@@ -1,19 +1,19 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: open sans, sans-serif;
-  background-color: #fff;
-  font-size: 11pt;
-  color: #636363;
+    font-family: open sans, sans-serif;
+    background-color: #fff;
+    font-size: 11pt;
+    color: #636363;
 }
 
 .app {
-  overflow: auto;
-  height: 100%;
-  width: 100%;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
 }

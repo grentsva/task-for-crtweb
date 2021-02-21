@@ -1,94 +1,94 @@
 .wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
-  max-width: 942px;
-  margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 942px;
+    margin: 0 auto;
 }
 
 .content {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .room {
-  display: flex;
-  border: 1px solid #f1f0f0;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #ebefff;
-  position: relative;
-}
-
-h2 {
-  margin-top: -7px;
-}
-
-img {
-  height: 250px;
-  margin: 5px;
-}
-
-.description {
-  width: 300px;
-  margin-left: 10px;
-}
-
-.description div {
-  margin: 5px 0;
-}
-
-@media (max-width: 1023px) {
-  .wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 600px;
-  }
-
-  .room {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     border: 1px solid #f1f0f0;
     margin-bottom: 10px;
     padding: 10px;
-    width: 100%;
-  }
+    background-color: #ebefff;
+    position: relative;
+}
 
-  .photo img {
-    height: 200px;
-  }
+h2 {
+    margin-top: -7px;
+}
 
-  .title {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: -10px;
-  }
+img {
+    height: 250px;
+    margin: 5px;
+}
 
-  .description {
-    width: 350px;
-    margin-left: 20px;
-    text-align: left;
-  }
+.description {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.description div {
+    margin: 5px 0;
+}
+
+@media (max-width: 1023px) {
+    .wrapper {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .room {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        border: 1px solid #f1f0f0;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .photo img {
+        height: 200px;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .description {
+        width: 350px;
+        margin-left: 20px;
+        text-align: left;
+    }
 }
 
 @media (max-width: 767px) {
-  .wrapper {
-    overflow-x: hidden;
-  }
+    .wrapper {
+        overflow-x: hidden;
+    }
 
-  .room {
-    width: 280px;
-  }
+    .room {
+        width: 280px;
+    }
 
-  h2 {
-    width: 70%;
-    margin-bottom: -5px;
-  }
+    h2 {
+        width: 70%;
+        margin-bottom: -5px;
+    }
 
-  .photo img {
-    height: 150px;
-  }
+    .photo img {
+        height: 150px;
+    }
 }
