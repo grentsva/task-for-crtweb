@@ -1,15 +1,9 @@
 import React from 'react';
 import styles from './Favorite.module.css';
-import like from '../../assets/images/like.png';
-import unlike from '../../assets/images/unlike.png';
 
 const Favorite = ({ isFavorite, handleClick }) => (
-    <div onClick={handleClick}>
-        {isFavorite ? (
-            <img className={styles.like} src={like} alt='' />
-        ) : (
-            <img className={styles.like} src={unlike} alt='' />
-        )}
+    <div className={styles.like} onClick={handleClick}>
+        <i className={isFavorite ? 'fas fa-heart' : 'far fa-heart'}></i>
     </div>
 );
 
